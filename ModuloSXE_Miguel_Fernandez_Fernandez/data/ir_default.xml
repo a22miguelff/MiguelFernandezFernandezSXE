@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<odoo>
+  <record id="studio_customization.activo_entradas_3d5fcfdc-a22e-4a71-949b-1802989fe9f3" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="studio_customization.activo_entradas_2f628f7a-ce79-4723-88ec-093da0c2435a"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">true</field>
+  </record>
+  <record id="studio_customization.estado_de_kanban_ent_aac7cf41-6af4-451a-9788-3095611d84b1" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="studio_customization.estado_de_kanban_ent_f81e2852-4834-4fa6-aa04-065957d678a7"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">"normal"</field>
+  </record>
+  <record id="studio_customization.etapa_entradas_89719999-1b64-4618-83d3-289f31c2869c" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="studio_customization.etapa_entradas_cfbd6e92-0cbc-41c6-ab05-643438488cab"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">1</field>
+  </record>
+  <record id="studio_customization.moneda_entradas_1a213ef6-4f61-4bdf-91e0-3290e6816b9a" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="studio_customization.moneda_entradas_86deccf8-41fe-4912-a3fc-6927178c33ed"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">124</field>
+  </record>
+  <record id="studio_customization.new_seleccion_entrad_5eea9dd9-1524-4455-a0d1-bd986d8d8f89" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="studio_customization.new_seleccion_entrad_4105136a-8b21-45c4-a708-9adf5fa74ee2"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">"ghj"</field>
+  </record>
+  <record id="studio_customization.pipeline_status_bar__405f85a0-de64-4b50-8417-2264f89d5e24" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="studio_customization.pipeline_status_bar__1ab8a121-adb6-4a79-97e6-92c093d78dd3"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">"status1"</field>
+  </record>
+  <record id="studio_customization.secuencia_entradas_5b7ebf8f-ae03-45e6-a002-995564e85c5f" model="ir.default" context="{'studio': True}">
+    <field name="field_id" ref="studio_customization.secuencia_entradas_866718e6-58fa-490b-9313-f941f1b7e22a"/>
+    <field name="condition" eval="False"/>
+    <field name="json_value">10</field>
+  </record>
+</odoo>
