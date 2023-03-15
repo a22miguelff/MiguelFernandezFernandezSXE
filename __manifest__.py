@@ -18,7 +18,4 @@
     'demo': [
         'demo/demo.xml',
     ],
-    'installable': True,
-    'application': True,
-    'icon': 'static/description/icon.png',
 }
