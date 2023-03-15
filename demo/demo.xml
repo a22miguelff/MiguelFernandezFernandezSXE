@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+    <data noupdate="1">
+        
+        <!-- Crear facturas de ejemplo -->
+        <record model="mi_modulo.factura" id="factura_1">
+            <field name="nombre">Factura 1</field>
+            <field name="fecha_emision">2023-02-01</field>
+            <field name="fecha_limite_pago">2023-02-15</field>
+            <field name="estado">a_pagar</field>
+        </record>
+        <record model="mi_modulo.factura" id="factura_2">
+            <field name="nombre">Factura 2</field>
+            <field name="fecha_emision">2023-02-05</field>
+            <field name="fecha_limite_pago">2023-02-20</field>
+            <field name="estado">a_cobrar</field>
+        </record>
+        <record model="mi_modulo.factura" id="factura_3">
+            <field name="nombre">Factura 3</field>
+            <field name="fecha_emision">2023-03-01</field>
+            <field name="fecha_limite_pago">2023-03-15</field>
+            <field name="estado">borrador</field>
+        </record>
+        
+    </data>
+</odoo>
+

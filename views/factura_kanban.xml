@@ -1,0 +1,46 @@
+<odoo>
+    <data>
+        <!-- Vista kanban para facturas -->
+        <record id="view_mi_modulo_factura_kanban" model="ir.ui.view">
+            <field name="name">mi_modulo.factura.kanban</field>
+            <field name="model">mi_modulo.factura</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="estado_factura"/>
+                    <templates>
+                        <t t-name="kanban-box">
+                            <div class="oe_kanban_global_click">
+                                <div class="oe_kanban_content">
+                                    <div class="oe_kanban_details">
+                                        <div class="oe_kanban_title">
+                                            <field name="name"/>
+                                        </div>
+                                        <div class="oe_kanban_tags">
+                                            <div class="oe_kanban_card_subtitle">
+                                                <field name="fecha_emision"/>
+                                            </div>
+                                            <div class="oe_kanban_card_subtitle">
+                                                <field name="fecha_limite_pago"/>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </t>
+                    </templates>
+                    <groups>
+                        <group name="group_a_pagar" string="Facturas a Pagar">
+                            <filter name="facturas_a_pagar" string="Facturas a Pagar" domain="[('estado_factura', '=', 'a_pagar')]"/>
+                        </group>
+                        <group name="group_a_cobrar" string="Facturas a Cobrar">
+                            <filter name="facturas_a_cobrar" string="Facturas a Cobrar" domain="[('estado_factura', '=', 'a_cobrar')]"/>
+                        </group>
+                        <group name="group_borrador" string="Facturas en Borrador">
+                            <filter name="facturas_en_borrador" string="Facturas en Borrador" domain="[('estado_factura', '=', 'borrador')]"/>
+                        </group>
+                    </groups>
+                </kanban>
+            </field>
+        </record>
+    </data>
+</odoo>
