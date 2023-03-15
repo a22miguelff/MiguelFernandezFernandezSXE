@@ -14,7 +14,6 @@
         'views/factura_calendar.xml',
         'views/factura_kanban.xml',
         'views/factura_list.xml',
-        'demo/demo.xml',
     ],
     'demo': [
         'demo/demo.xml',
