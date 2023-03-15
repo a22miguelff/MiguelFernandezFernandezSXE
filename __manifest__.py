@@ -9,7 +9,6 @@
     'depends': ['base'],
     'data': [
         'security/ir.model.access.csv',
-        'security/ir.model.access.xml',
         'views/factura_form.xml',
         'views/factura_calendar.xml',
         'views/factura_kanban.xml',
