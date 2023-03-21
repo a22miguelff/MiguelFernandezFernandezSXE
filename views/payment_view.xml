@@ -32,7 +32,6 @@
         <field name="model">account.payment</field>
         <field name="arch" type="xml">
                 <tree>
-                    <field name="is_recurring"/>
                         <field name="payment_method_id"/>
                 </tree>
         </field>
