@@ -32,7 +32,7 @@
     
     <record id="view_invoice_tree" model="ir.ui.view">
         <field name="name">account.invoice.tree</field>
-        <field name="model">my.account.invoice</field>
+        <field name="model">account.invoice</field>
         <field name="arch" type="xml">
                 <tree>
                     <field name="is_recurring"/>
