@@ -29,7 +29,7 @@
     
     <record id="view_payment_tree" model="ir.ui.view">
         <field name="name">my.account.payment.tree</field>
-        <field name="model">my.account.paymeny</field>
+        <field name="model">my.account.payment</field>
         <field name="arch" type="xml">
                 <tree>
                         <field name="payment_method_id"/>
