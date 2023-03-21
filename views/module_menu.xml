@@ -2,18 +2,18 @@
 <odoo>
     <menuitem
         id="menu_facturas"
-        name="Hospital"
+        name="Principal"
         sequence="10"/>
 
     <menuitem
         id="menu_facturas_payment"
-        name="Patients"
+        name="Pagos"
         parent = "menu_hospital_root"
         sequence="10"/>
 
     <menuitem
         id="menu_facturas_invoice"
-        name="Staff"
+        name="Facturas"
         parent = "menu_hospital_root"
         sequence="10"/>
 </odoo>
