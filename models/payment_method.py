@@ -14,11 +14,9 @@ class PaymentMethod(models.Model):
     @api.model
     def create(self, vals):
         res = super(PaymentMethod, self).create(vals)
-        # Your custom code here
         return res
 
     def write(self, vals):
         res = super(PaymentMethod, self).write(vals)
-        # Your custom code here
         return res
 
