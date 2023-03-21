@@ -1,5 +1,5 @@
 {
-    'name': 'Pago facturas recurrentes',
+    'name': 'Facturas Recurrentes',
     'summary': 'Agregue funcionalidades de pago en línea, factura recurrente y seguimiento de facturas.',
     'description': 'Este módulo agrega funcionalidades de pago en línea, factura recurrente y seguimiento de facturas a Odoo.',
     'version': '1.0',
