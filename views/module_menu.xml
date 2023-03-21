@@ -8,12 +8,12 @@
     <menuitem
         id="menu_facturas_payment"
         name="Pagos"
-        parent = "menu_hospital_root"
+        parent = "menu_facturas"
         sequence="10"/>
 
     <menuitem
         id="menu_facturas_invoice"
         name="Facturas"
-        parent = "menu_hospital_root"
+        parent = "menu_facturas"
         sequence="10"/>
 </odoo>
