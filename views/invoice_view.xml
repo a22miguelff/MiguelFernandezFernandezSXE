@@ -23,3 +23,9 @@
         <field name="res_model">account.invoice</field>
         <field name="view_mode">form</field>
     </record>
+<menuitem
+            id="account_invoice_menu"
+            name="Invoice"
+            parent=menu_facturas_invoice
+            action=action_invoice
+            sequence="10"/>
