@@ -14,3 +14,9 @@
         </record>
     </data>
 </odoo>
+<record id="action_payment" model="ir.actions.act_window">
+        <field name="name">Payment</field>
+        <field name="type">ir.actions.act_window</field>
+        <field name="res_model">account.payment</field>
+        <field name="view_mode">form</field>
+    </record>
