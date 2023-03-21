@@ -26,6 +26,6 @@
 <menuitem
             id="account_invoice_menu"
             name="Invoice"
-            parent=menu_facturas_invoice
-            action=action_invoice
+            parent="menu_facturas_invoice"
+            action="action_invoice"
             sequence="10"/>
