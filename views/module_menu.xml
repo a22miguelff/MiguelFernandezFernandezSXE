@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <odoo>
     <menuitem
-        id="menu_hospital_root"
+        id="menu_facturas"
         name="Hospital"
         sequence="10"/>
 
     <menuitem
-        id="menu_hospital_patients"
+        id="menu_facturas_payment"
         name="Patients"
         parent = "menu_hospital_root"
         sequence="10"/>
 
     <menuitem
-        id="menu_hospital_staff"
+        id="menu_facturas_invoice"
         name="Staff"
         parent = "menu_hospital_root"
         sequence="10"/>
