@@ -11,7 +11,5 @@
         'views/payment_view.xml',
         'views/invoice_view.xml',
     ],
-    'installable': True,
-    'auto_install': False,
     'application': True,
 }
