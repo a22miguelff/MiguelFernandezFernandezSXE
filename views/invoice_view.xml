@@ -16,8 +16,7 @@
             </field>
         </record>
     </data>
-</odoo>
-<record id="action_invoice" model="ir.actions.act_window">
+    <record id="action_invoice" model="ir.actions.act_window">
         <field name="name">Invoice</field>
         <field name="type">ir.actions.act_window</field>
         <field name="res_model">account.invoice</field>
@@ -29,3 +28,5 @@
             parent="menu_facturas_invoice"
             action="action_invoice"
             sequence="10"/>
+</odoo>
+
