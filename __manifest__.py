@@ -5,7 +5,6 @@
     'version': '1.0',
     'category': 'Accounting/Invoicing',
     'author': 'Miguel Fernandez Fernandez',
-    'depends': ['account'],
     'data': [
         'security/ir.model.access.csv',
         'views/payment_view.xml',
