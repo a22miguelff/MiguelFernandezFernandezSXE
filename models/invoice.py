@@ -1,7 +1,7 @@
 from odoo import fields, models
 
 class Invoice(models.Model):
-    name = 'invoice'
+    name = 'account.invoice'
     _inherit = 'account.invoice'
     
     is_recurring = fields.Boolean(string='Is Recurring Invoice')
