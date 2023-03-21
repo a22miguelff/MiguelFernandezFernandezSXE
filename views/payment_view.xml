@@ -20,3 +20,9 @@
         <field name="res_model">account.payment</field>
         <field name="view_mode">form</field>
     </record>
+<menuitem
+            id="account_payment_menu"
+            name="Payment"
+            parent=<menu_padre>
+            action=action_payment
+            sequence="10"/>
