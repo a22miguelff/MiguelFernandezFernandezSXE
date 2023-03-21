@@ -11,5 +11,4 @@
         'views/payment_view.xml',
         'views/invoice_view.xml',
     ],
-    'application': True,
 }
