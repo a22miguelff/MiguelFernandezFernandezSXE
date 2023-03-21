@@ -1,0 +1,20 @@
+<!-- invoice_view.xml -->
+<odoo>
+    <data>
+        <record id="view_invoice_form_inherit" model="ir.ui.view">
+            <field name="name">account.invoice.form.inherit</field>
+            <field name="model">account.invoice</field>
+            <field name="inherit_id" ref="account.invoice_form"/>
+            <field name="arch" type="xml">
+                <xpath expr="//page[@name='invoice_lines']/group[@name='invoice_line_tax']" position="after">
+                    <group name="invoice_info">
+                        <field name="is_recurring"/>
+                        <field name="recurring_interval" attrs="{'invisible': [('is_recurring','=',False)]}"/>
+                        <field name="recurring_last_date" attrs="{'invisible': [('is_recurring','=',False)]}"/>
+                        <field name="payment_method_id"/>
+                    </group>
+                </xpath>
+            </field>
+        </record>
+    </data>
+</odoo>

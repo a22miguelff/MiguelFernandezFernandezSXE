@@ -1,0 +1,17 @@
+{
+    'name': 'Pago facturas recurrentes',
+    'summary': 'Agregue funcionalidades de pago en línea, factura recurrente y seguimiento de facturas.',
+    'description': 'Este módulo agrega funcionalidades de pago en línea, factura recurrente y seguimiento de facturas a Odoo.',
+    'version': '1.0',
+    'category': 'Accounting/Invoicing',
+    'author': 'Miguel Fernandez Fernandez',
+    'depends': ['account'],
+    'data': [
+        'security/ir.model.access.csv',
+        'views/payment_view.xml',
+        'views/invoice_view.xml',
+    ],
+    'installable': True,
+    'auto_install': False,
+    'application': True,
+}
