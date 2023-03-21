@@ -9,5 +9,6 @@
         'security/ir.model.access.csv',
         'views/payment_view.xml',
         'views/invoice_view.xml',
+        'views/module_menu.xml',
     ],
 }
