@@ -5,9 +5,11 @@
             <field name="name">account.payment.form</field>
             <field name="model">account.payment</field>
             <field name="arch" type="xml">
-                    <group name="payment_info">
+              <form>
+                    <group>
                         <field name="payment_method_id"/>
-                    </group>           
+                    </group>   
+                  </form>
             </field>
         </record>
     </data>
