@@ -23,6 +23,6 @@
 <menuitem
             id="account_payment_menu"
             name="Payment"
-            parent=<menu_padre>
+            parent=menu_facturas_payment
             action=action_payment
             sequence="10"/>
