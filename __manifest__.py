@@ -5,10 +5,14 @@
     'version': '1.0',
     'category': 'Accounting/Invoicing',
     'author': 'Miguel Fernandez Fernandez',
+    'depends': ['account'],
     'data': [
         'security/ir.model.access.csv',
         'views/module_menu.xml',
         'views/payment_view.xml',
         'views/invoice_view.xml'
-    ]
+    ],
+    'application': True,
+    'installable': True,
+    'auto_install': False,
 }
