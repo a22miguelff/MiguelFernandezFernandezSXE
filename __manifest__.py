@@ -5,6 +5,7 @@
     'version': '1.0',
     'category': 'Accounting/Invoicing',
     'author': 'Miguel Fernandez Fernandez',
+    'images': ['static/description/icon.png'],
     'depends': ['account'],
     'data': [
         'security/ir.model.access.csv',
