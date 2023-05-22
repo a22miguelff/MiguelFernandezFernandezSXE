@@ -1,0 +1,23 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_invoice_calendar">
+            <field name="name">Invoice Calendar View</field>
+            <field name="model">account.invoice</field>
+            <field name="arch" type="xml">
+                <calendar string="Invoices" date_start="create_date" date_stop="create_date">
+                    <field name="is_recurring"/>
+                    <field name="recurring_interval"/>
+                    <field name="recurring_last_date"/>
+                    <field name="payment_method_id"/>
+                </calendar>
+            </field>
+        </record>
+        <record model="ir.actions.act_window" id="action_invoice_calendar">
+            <field name="name">Invoices Calendar</field>
+            <field name="res_model">account.invoice</field>
+            <field name="view_mode">calendar</field>
+            <field name="view_id" ref="view_invoice_calendar"/>
+        </record>
+        <menuitem id="menu_invoice_calendar" name="Invoice Calendar" action="action_invoice_calendar"/>
+    </data>
+</odoo>
