@@ -1,0 +1,20 @@
+<odoo>
+    <data>
+        <record model="ir.ui.view" id="view_invoice_kanban">
+            <field name="name">Invoice Kanban View</field>
+            <field name="model">account.invoice</field>
+            <field name="arch" type="xml">
+                <kanban>
+                    <field name="kanban_state"/>
+                </kanban>
+            </field>
+        </record>
+        <record model="ir.actions.act_window" id="action_invoice_kanban">
+            <field name="name">Invoices Kanban</field>
+            <field name="res_model">account.invoice</field>
+            <field name="view_mode">kanban</field>
+            <field name="view_id" ref="view_invoice_kanban"/>
+        </record>
+        <menuitem id="menu_invoice_kanban" name="Invoice Kanban" action="action_invoice_kanban"/>
+    </data>
+</odoo>
