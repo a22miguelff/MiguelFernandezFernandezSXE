@@ -11,6 +11,8 @@
         'security/ir.model.access.csv',
         'views/module_menu.xml',
         'views/payment_view.xml',
-        'views/invoice_view.xml'
+        'views/invoice_view.xml',
+        'views/invoice_calendar_view.xml',
+        'views/invoice_kanban_view.xml'
     ],
 }
