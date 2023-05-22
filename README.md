@@ -1,2 +1,2 @@
 # MiguelFernandezFernandezSXE
-dfgdgdfg
+Módulo de facturas y facturas recurrentes.
